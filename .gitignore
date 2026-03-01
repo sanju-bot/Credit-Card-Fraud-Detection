@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+.venv/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.jupyter/
+*/.ipynb_checkpoints/
+
+# Large Data files (download using kagglehub)
+data/creditcard.csv
+data/creditcard.csv.gz
+*.csv.gz
+
+# Keep data README
+!data/README.md
+
+# Streamlit cache and secrets
+.streamlit/
+.streamlit/secrets.toml
+
+# Models (train locally or download)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Logs and debugging
+*.log
+logs/
+debug_*.py
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary analysis files
+*_analysis_temp*
+temp_*.py
+
+# Streamlit running cache
+*.streamlit.cache
+
+# Performance profiling
+prof_*.txt
+*.prof
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.pyc
+.env
+config/local/
